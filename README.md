@@ -2,7 +2,7 @@
 检测高分辨率、大尺寸的卫星图像中的棕榈树。
 
 ### 训练过程
-1. 标注训练集：将训练集的标签文件放在路径`./VOCdevkit/VOC2007`下的**Annotation**文件夹中；将图片文件放在路径`./VOCdevkit/VOC2007`下的**JPEGImages**文件夹中。（可以使用辅助的训练集，如 https://github.com/rs-dl/CROPTD）
+1. 标注训练集：将训练集的标签文件放在路径`./VOCdevkit/VOC2007`下的**Annotation**文件夹中；将图片文件放在路径`./VOCdevkit/VOC2007`下的**JPEGImages**文件夹中。（可以使用辅助的训练集，如 https://github.com/rs-dl/CROPTD ）
 2. 在`./VOCdevkit/VOC2007`路径下运行：`python voc2yolo4.py`
 3. 在主路径下运行：`python voc_annotation.py`
 4. 开始训练，在主路径下运行：`python train.py`（在**train.py**文件中可设置训练超参数），训练结果保存为文件`./mdoel_data/model.pth`。
