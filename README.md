@@ -13,4 +13,4 @@
 2. 开始测试，在主路径下运行：`python predict.py`
 
 ### 部分结果展示
-![](.test/part_of_result.png)
+![](https://github.com/0809zheng/OilPalmDetector/blob/main/test/part_of_result.png)
